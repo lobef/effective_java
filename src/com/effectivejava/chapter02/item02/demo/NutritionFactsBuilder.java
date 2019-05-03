@@ -1,5 +1,6 @@
 package com.effectivejava.chapter02.item02.demo;
 
+@SuppressWarnings("unused")
 public class NutritionFactsBuilder {
 
 	private final int servingSize;
