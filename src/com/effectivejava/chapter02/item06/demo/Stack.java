@@ -39,7 +39,7 @@ public class Stack {
 		if (elements.length == size)
 			throw new EmptyStackException();
 		Object e = elements[--size];
-		elements[size] = null;// 将不用的引用设置为null
+		elements[size] = null;// 将不用的引用设置为null，通过垃圾回收器将无用的对象回收圾
 		return e;
 
 	}
