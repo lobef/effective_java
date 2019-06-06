@@ -2,9 +2,9 @@ package com.effectivejava.chapter03.item09.demo;
 
 public final class PhoneNumber {
 
-	private short areaCode;
-	private short prefix;
-	private short lineNumber;
+	private final short areaCode;
+	private final short prefix;
+	private final short lineNumber;
 
 	public PhoneNumber(int areaCode, int prefix, int lineNumber) {
 		rangeCheck(areaCode, 999, "area code");
