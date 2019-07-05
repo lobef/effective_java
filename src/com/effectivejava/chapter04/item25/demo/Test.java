@@ -1,4 +1,4 @@
-package com.effectivejava.chapter05.demo;
+package com.effectivejava.chapter04.item25.demo;
 
 public class Test {
 
